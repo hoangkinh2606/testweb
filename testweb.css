@@ -1,4 +1,6 @@
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* header-start */
 #main{
     background: white;
@@ -12,15 +14,15 @@
     text-align: center;
    
 }
-#logo img{
-    width: 320px;
-    height: 200px;
+.logo_start_end{
+    width: 250px;
+    height: 130px;
     margin: 20px;
     text-align: center;
 }
 /* end-header */
 /* main-logo-start */
-#web-main{
+#web_main{
     margin: 0;
     padding:0;
 }
@@ -28,7 +30,7 @@
     background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
-    padding: 20px 15%;
+    padding: 20px 20%;
     box-sizing: border-box;
 
 }
@@ -37,164 +39,159 @@
     height: auto;
 }
 /* end-main-logo */
-/* main-label-start */
-#label{
+/* label start */
+#web_main_sp{
     background: #ecebe5;
     max-width: 100%;
-    padding: 20px 15%;
+    margin: 0;
+    padding: 30px 17%;
     box-sizing: border-box;
 }
-/* babel1-star */
-#main-sp{
-    position: relative;
+/* label1 start */
+#label{
     background: white;
-    max-width: 100%;
-    padding: 20px;
     box-sizing: border-box;
-   
+    display: grid;
+    border-bottom:black double 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+                        "c1 c1 c1 c1"
+                        "c2 c2 c3 c3"
+                        "c4 c5 c3 c3"
+    ;
 }
-#main-sp-one{
-    width: 100%;
-    color:black;
-    border-left: 5px solid red;
-    padding-left: 40px;
+#label_one{
+    grid-area: c1;
+    padding-left: 30px;
 }
-#main-spt{
-    position: relative;
-    display: flex;
-    margin: 30px 30px;
-    left: 0;
-    box-sizing: border-box;
-    border-bottom: black double 5px;
-    height: 250px;
-
+.label_one_start{
+    font-size: 30px;
+    padding-left:10px ;
+    border-left: red solid 5px;
 }
-#main-sp-tow{
-    border-bottom: black double 3px;
+#label_two{
+    grid-area: c2;
+    padding-left: 30px;
 }
-#main-sp-tow-start{
-    display: flex;
-    justify-content: left;
-    left: 0%;
-}
-#main-sp-tow-start1{
-    padding: 20px;
-    box-sizing: border-box;
-    flex: 1;
-}
-#main-sp-tow-start1 img{
-    width: 200px;
-}
-#main-sp-tow-start2{
-    padding: 20px;
-    box-sizing: border-box;
-    flex: 2;
-}
-#main-sp-tow-start2 img{
-    padding:0%;
-    box-sizing: border-box;
-    width: 200px;
-}
-#main-sp-tow-end{
-    display: flex;
-    margin-bottom: 30px;
-    box-sizing: border-box;
-}
-#main-sp-tow-end1{
-    padding: 20px;
-    box-sizing: border-box;
-}
-#main-sp-tow-end1 img{
-    width: 200px;
-}
-#main-sp-tow-end2{
-    padding: 20px;
-    box-sizing: border-box;
-}
-#main-sp-tow-end2 p{
-    font-size: 40px;
-    margin-top: 0;
-
-}
-/* end-label1 */
-/* label2-start */
-#main-tp{
-    position: relative;
-    background: white;
-    max-width: 100%;
-    padding: 30px 10px;
-    box-sizing: border-box;
-}
-#main-tp-one{
-    width: 100%;
-    color:black;
-    border-left: 5px solid red;
-    padding-left: 40px;
-    
-}
-#main-tp-tow{
-    padding: 20px;
-    box-sizing: border-box;
-}
-#main-tp-tow img{
-    width: 200px;
-}
-#main-tp-three{
-    position: relative;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-}
-#main-tp-three-start{
-    display: flex;
-    padding: 20px;
-    box-sizing: border-box;
-    flex: 1;
-
-}
-#main-tp-three-start img{
-    width: 200px;
+.label_two_start{
+    max-width: 100px;
     height: auto;
-    padding: 20px 0;
 }
-#main-tp-three-end{
-    display: flex;
-    padding: 20px 0;
+#label_three{
+    grid-area: c3;
+    padding-left: 30px;
+}
+.label_three_pc{
+    width: 170px;
+    height: auto;
+    left: 0;
+}
+.label_three_mobile{
+    width: 200px;
+}
+#label_four{
+    grid-area: c4;
+    padding: 50px 30px;
+}
+.label_four_start{
+    width: 100px;
+    height: auto;
+}
+#label_five{
+    grid-area: c5;
+    padding: 30px 0 ;
+}
+.label_five_start{
+    font-size: 15px;
+}
+/* end label1 \ */
+/* label2 start */
+#label2{
+    background: white;
     box-sizing: border-box;
-    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+                        "c1 c1 c1 c1"
+                        "c2 c2 c3 c3"
+                        "c4 c5 c3 c3"
+                        "c6 c6 c6 c6"
+    ;
 }
-#main-tp-three-end p{
-    font-size: 40px;
-    color: black;
-    margin-bottom: 30px;
-    box-sizing: border-box;
+#label2_one{
+    grid-area: c1;
+    padding-left: 30px;
 }
-#main-tp-four{
-    text-align: center;  
-    color: red; 
+.label2_one_start{
+    font-size: 30px;
+    padding-left:10px ;
+    border-left: red solid 5px;
 }
-
-
-
-/* end-label2 */
-/* end-main-laber */
+#label2_two{
+    grid-area: c2;
+    padding-left: 30px;
+}
+.label2_two_start{
+    max-width: 100px;
+    height: auto;
+}
+#label2_three{
+    grid-area: c3;
+    padding-left: 30px;
+}
+.label2_three_pc{
+    width: 170px;
+    height: auto;
+    left: 0;
+}
+.label2_three_mobile{
+    width: 200px;
+}
+#label2_four{
+    grid-area: c4;
+    padding: 50px 30px;
+}
+.label2_four_start{
+    width: 100px;
+    height: auto;
+}
+#label2_five{
+    grid-area: c5;
+    padding: 30px 0 ;
+}
+.label2_five_start{
+    font-size: 15px;
+}
+#label_end{
+    padding-left: 20px;
+    grid-area: c6;
+}
+.label_end_start_end{
+    color: red;
+    text-align: center;
+    padding-right: 20px;
+}
+/* end label2 */
+/* end label */
 /* main-product start */
-#main-product{
+#main_product{
     max-width: 100%;
     margin: 0;
 }
-#main-product-one{
+#main_product_one{
     background-color:black ;
     height: 40px
 }
-#main-product-one p{
+#main_product_one p{
     color: white;
     font-size: 19px;
     text-align: center;
     margin: 0;
     padding: 5px;
 }
-#main-product-two{
+#main_product_two{
     max-width: 100%;
     padding: 20%;
     padding-top: 50px;
@@ -204,7 +201,7 @@
     background-color: white;
 
 }
-#main-product-two-sum{
+#main_product_two_sum{
     padding: 20px 10px;
     margin:0 10px;
     box-sizing: border-box;
@@ -216,121 +213,121 @@
                         "h3 h2";
     
 }
-#main-product-two-start:nth-child(){
+#main_product_two_start:nth-child(){
     grid-area: h1;
 }
-#main-product-two-img:nth-child(2){
+#main_product_two_img:nth-child(2){
     grid-area: h2;
 }
-#main-product-two-end:last-child{
+#main_product_two_end:last-child{
     grid-area: h3;
 }
 
-#main-product-two-start{
+#main_product_two_start{
     max-width: 100%;
     height: auto;
     padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 70px;
     margin: 0;
     box-sizing: border-box;
 
     
 }
-#main-product-two-start h2{
+#main_product_two_start h2{
     margin: 0;
 }
-#main-product-two-start p{
+#main_product_two_start p{
     margin: 0%;
     font-size: 14px;
 }
 
-#main-product-two-img{
+#main_product_two_img{
     top: 20px;
     margin-top:20px ;
     padding: 20px;
     box-sizing:border-box;
     background-size: cover;
 }
-#main-product-two-img img{
+#main_product_two_img img{
     height: 300px;
     width: auto;
     object-fit: cover;
 }
-#main-product-two-end{
+#main_product_two_end{
     max-width: 100%;
     height: auto;
     margin: 0;
     padding: 0 ;
-    padding-left: 50px;
+    padding-left: 70px;
     box-sizing: border-box;
     
 }
-.main-product-two-end-sp{
+.main_product_two_end_sp{
     color: red;
     font-size: 19px;
 }
-.main-product-two-end-tp{
+.main_product_two_end_tp{
     font-size: 19px;
 }
 /* end main-product */
 /* campaign start */
-#end-main{
+#end_main{
     background-color: black;
     height: 40px;
 }
-#campaign-one p{
+#campaign_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     margin: 0;
     padding: 5px;
 }
-#campaign-two{
+#campaign_two{
     margin: 0 20%;
     padding-top: 30px;
     box-sizing: border-box;
 }
-#campaign-two-start{
+#campaign_two_start{
     padding:0 18px;
     margin-bottom: 0;
     box-sizing: border-box;
 }
-#campaign-two-start p{
+#campaign_two_start p{
     font-size: 20px;
 }
-#campaign-two-end{
+#campaign_two_end{
     padding-top: 0;
     margin: 0 ;
     box-sizing: border-box;
 }
-#campaign-two-end ul{
+#campaign_two_end ul{
     list-style-type: none;
     padding: 20px;
     box-sizing: border-box;
 }
-#campaign-two-end ul li{
+#campaign_two_end ul li{
     padding: 10px 0;
     box-sizing: border-box;
 }
-#campaign-two-end ul li p{
+#campaign_two_end ul li p{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
-    
 }
+
 /* end campaign */
 /* recruitment　start */
-#recruitment-one{
+#recruitment_one{
     background-color: black;
     height: 40px;
 }
-#recruitment-one p{
+#recruitment_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
-#recruitment-two{
+#recruitment_two{
     max-width: 100%;
     padding: 20%;
     padding-top: 0;
@@ -342,17 +339,17 @@
 }
 /* end recruitment */
 /* note start */
-#note-one{
+#note_one{
     background-color: black;
     height: 40px;
 }
-#note-one p{
+#note_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
-#note-two{
+#note_two{
     max-width: 100%;
     padding: 20%;
     padding-top: 0;
@@ -362,72 +359,81 @@
     background-color: white;
 
 }
-#note-two ul{
+#note_two ul{
     padding: 0;
 }
-#note-two ul li{
+#note_two ul li{
     list-style-type: none;
 }
-#button-me{
+#button_me{
     padding:0 20%;
     text-align: center;
     color: red;
     
 }
-#button-now{
+#button_now{
     margin: 0;
     box-sizing: border-box;
     min-width: 100%;
-    height: 40px;
+    height: auto;
     color: white;
     background-color: red;
-    font-size: 20px;
+    font-size: 30px;
     
 }
-#notification-one{
+#notification_one{
     background-color: black;
     height: 40px;
 }
-#notification-one p{
+#notification_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
-#notification-two{
+#notification_two{
     max-width: 100%;
     margin-top: 30px;
     text-align: center;
     background-color: white;
 }
-#notification-two p{
+#notification_two p{
     padding: 0;
     margin: 0;
+}
+.notification_two_renraku{
+    text-decoration: none;
+    color: black;
 }
 #footer{
     background-color: #ecebe5;
     height: 200px;
     padding: 30px 20%;
     margin-top: 30px;
-    
-
 }
-#footer-one{
-    
+#footer_one{
     margin-top: 50px;
-    padding-left: 30px;
     box-sizing: border-box;
 }
-#footer-one img{
+#footer_one img{
     max-width: 300px;
+
 }
-#footer-two{
+#footer_two{
     position: absolute;
     right: 0 !important;
+    padding-top: 12px;
     padding-right: 20%;
+    font-size: 14px;
 }
-#footer-three{
+.footer_two_start{
+    color: black;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#footer_three{
     word-wrap: break-word;
-    max-width: 300px;
+    max-width: 350px;
+    font-size: 12px;
 }
 /* end note */
