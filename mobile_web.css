@@ -1,6 +1,3 @@
-
-
-
 /* logo start */
 @media only screen and (min-width: 768px) {
     .mv_mobile{
@@ -12,10 +9,12 @@
     .label2_three_mobile{
         display: none;
     }
+    .mobile_break{
+        display: none;
+    }
 }
 /* end logo */
 /* main product start */
-
 @media (max-width:767px){
      /* header star */
      #logo{
@@ -83,7 +82,6 @@
         box-sizing: border-box;
         text-align: center;
     }
-
     #main_product_two_start p{
         font-size: 16px;
     }

@@ -5,14 +5,11 @@ body{
 #main{
     background: white;
 }
-
-
 #logo{
     background: #ecebe5;
     width: 100%;
     height: auto;
     text-align: center;
-   
 }
 .logo_start_end{
     width: 250px;
@@ -32,7 +29,6 @@ body{
     height: auto;
     padding: 20px 20%;
     box-sizing: border-box;
-
 }
 #auto img{
     max-width: 100%;
@@ -199,7 +195,6 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: white;
-
 }
 #main_product_two_sum{
     padding: 20px 10px;
@@ -211,7 +206,6 @@ body{
     grid-template-areas: 
                         "h1 h2"
                         "h3 h2";
-    
 }
 #main_product_two_start:nth-child(){
     grid-area: h1;
@@ -222,7 +216,6 @@ body{
 #main_product_two_end:last-child{
     grid-area: h3;
 }
-
 #main_product_two_start{
     max-width: 100%;
     height: auto;
@@ -230,8 +223,6 @@ body{
     padding-left: 70px;
     margin: 0;
     box-sizing: border-box;
-
-    
 }
 #main_product_two_start h2{
     margin: 0;
@@ -240,7 +231,6 @@ body{
     margin: 0%;
     font-size: 14px;
 }
-
 #main_product_two_img{
     top: 20px;
     margin-top:20px ;
@@ -260,7 +250,6 @@ body{
     padding: 0 ;
     padding-left: 70px;
     box-sizing: border-box;
-    
 }
 .main_product_two_end_sp{
     color: red;
@@ -314,7 +303,6 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
 /* end campaign */
 /* recruitment　start */
 #recruitment_one{
@@ -335,7 +323,6 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: white;
-
 }
 /* end recruitment */
 /* note start */
@@ -357,7 +344,6 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: white;
-
 }
 #note_two ul{
     padding: 0;
@@ -369,7 +355,6 @@ body{
     padding:0 20%;
     text-align: center;
     color: red;
-    
 }
 #button_now{
     margin: 0;
@@ -379,7 +364,6 @@ body{
     color: white;
     background-color: red;
     font-size: 30px;
-    
 }
 #notification_one{
     background-color: black;
