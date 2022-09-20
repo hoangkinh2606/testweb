@@ -1,5 +1,5 @@
 /* logo start */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px){
     .mv_mobile{
         display: none;
     }
@@ -12,32 +12,81 @@
     .mobile_break{
         display: none;
     }
+    .mobile{
+        display: none;
+    }
 }
 /* end logo */
 /* main product start */
-@media (max-width:767px){
+@media (max-width:768px){
+    .pc{
+        display: none;
+    }
+
+    .label_flex{
+        display: flex !important;
+        width: 100%;
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }
+    .label{
+        display:block;
+    }
+    .label2{
+        display:block;
+        padding-top: 30px;
+    }
+    .label_two_start {
+        max-width: auto;
+        height: 30px;
+    }
+    .label_three_mobile {
+        width: auto;
+        height: 85px;
+    }
+    .label_four_start{
+        width: 50%;
+        height: auto;
+        padding-top: 30px ;
+    }
+    .label_five_start{
+        font-size: 20px;
+    }
+    .bottom_one{
+        align-items: flex-end;
+        padding-bottom: 50px;
+    }
+    
      /* header star */
-     #logo{
+     .logo{
         width: 100%;
     }
     .logo_start_end{
         width: 160px;
         height: auto;
     }
-    body{
-        font-family:'Times New Roman', Times, serif;
-    }
     .mv_pc{
         display: none;
     }
-    #logo1{
+    .logo1{
         max-width: 100%;
-        padding:15px 30px;
+        padding: 15px 30px;
         margin: 0;
         box-sizing: border-box;
     }
+    .border{
+        background: #ecebe5;
+
+        height: 30px;
+    }
+    .space{
+        padding-bottom: 50px;
+    }
     /* label start */
-    #web_main_sp{
+    .web_man{
+        border-bottom: #ecebe5 solid 200px;
+    }
+    .web_main_sp{
         max-width: 100%;
         padding: 0;
         margin: 0;
@@ -64,40 +113,43 @@
         font-size: 25px;
         padding-right: 10px;
     }
+    .label_end_start_end{
+        text-align: left;
+    }
     /* end label  */
     /* end header */
-    #main_product_two{
+    .main_product_two{
         max-width: 100%;
         padding: 0;
     }
-    #main_product_two_sum{
+    .main_product_two_sum{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
         display: block;
     }
-    #main_product_two_start{
+    .main_product_two_start{
         margin: 10px;
         padding-left: 0;
         box-sizing: border-box;
         text-align: center;
     }
-    #main_product_two_start p{
+    .main_product_two_start p{
         font-size: 16px;
     }
-    #main_product_two_img{
+    .main_product_two_img{
         padding: 0;
         margin: 0;
         text-align: center;
 
     }
-    #main_product_two_img img{
+    .main_product_two_img img{
         margin-top: 0;
         height: 150px;
         width: auto;
         box-sizing: border-box;
     }
-    #main_product_two_end{
+    .main_product_two_end{
         margin: 0;
         padding: 0;
         text-align: center;
@@ -115,50 +167,58 @@
         padding-bottom: 30px;
         box-sizing: border-box;
     }
-    #campaign_two{
+    .campaign_two{
         max-width: 100%;
         padding: 0;
         margin: 0;
     }
-    #recruitment_two{
+    .campaign_two_end{
+        font-weight: bold; 
+        font-family: none;
+    }
+    .recruitment_two{
         max-width: 100%;
         padding: 20px;
         margin: 0;
         box-sizing: border-box;
+        font-weight: bold;
     }
-    #note_two{
+    .note_two{
         max-width: 100%;
         margin: 0;
-        padding: 20px;
+        padding:0 20px;
         box-sizing: border-box;
+        font-weight: bold;
     }
-    #button_me{
+    .button_me{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    #button_now{
+    .button_now{
         max-width: 100%;
         height: auto;
         font-size: 30px;
         word-wrap: break-word;
+        line-height: 1.2;
+        font-weight: bold;
     }
-    #footer{
+    .footer{
         margin: 0;
         padding: 0%;
         max-width: 100%;
     }
-    #footer_one{
+    .footer_one{
         text-align: center;
         height: 100px;
         padding-top: 30px;
     }
-    #footer_two{
+    .footer_two{
         position: relative;
         text-align: center;
         padding:0 50px;
     }
-    #footer_three {
+    .footer_three {
         text-align: center;
         padding:0 100px;
     }

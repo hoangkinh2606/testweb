@@ -2,11 +2,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* header-start */
-#main{
+main{
     background: white;
 }
-#logo{
-    background: #ecebe5;
+.logo{
+    background: #ecebe5 ;
     width: 100%;
     height: auto;
     text-align: center;
@@ -19,36 +19,37 @@ body{
 }
 /* end-header */
 /* main-logo-start */
-#web_main{
+.web_main{
     margin: 0;
     padding:0;
 }
-#logo1{
+.logo1{
     background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
     padding: 20px 20%;
     box-sizing: border-box;
 }
-#auto img{
+.auto img{
     max-width: 100%;
     height: auto;
 }
 /* end-main-logo */
 /* label start */
-#web_main_sp{
-    background: #ecebe5;
+.web_main_sp{
+    background-color: #ecebe5;
+    background: ;
     max-width: 100%;
     margin: 0;
     padding: 30px 17%;
     box-sizing: border-box;
 }
 /* label1 start */
-#label{
+.label{
     background: white;
     box-sizing: border-box;
     display: grid;
-    border-bottom:black double 5px;
+    border-bottom:rgb(105, 95, 95) double 8px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
@@ -57,53 +58,55 @@ body{
                         "c4 c5 c3 c3"
     ;
 }
-#label_one{
+.label_one{
     grid-area: c1;
     padding-left: 30px;
 }
 .label_one_start{
-    font-size: 30px;
-    padding-left:10px ;
+    font-size: 40px;
+    padding-left:15px ;
     border-left: red solid 5px;
+    
 }
-#label_two{
+.label_two{
     grid-area: c2;
     padding-left: 30px;
 }
 .label_two_start{
-    max-width: 100px;
+    max-width: 50%;
     height: auto;
 }
-#label_three{
+.label_three{
     grid-area: c3;
     padding-left: 30px;
 }
 .label_three_pc{
-    width: 170px;
+    max-width: 50%;
     height: auto;
     left: 0;
 }
 .label_three_mobile{
     width: 200px;
 }
-#label_four{
+.label_four{
     grid-area: c4;
     padding: 50px 30px;
 }
 .label_four_start{
-    width: 100px;
+    max-width: 100%;
     height: auto;
+    padding-top: 30px;
 }
-#label_five{
+.label_five{
     grid-area: c5;
     padding: 30px 0 ;
 }
 .label_five_start{
-    font-size: 15px;
+    font-size: 40px;
 }
 /* end label1 \ */
 /* label2 start */
-#label2{
+.label2{
     background: white;
     box-sizing: border-box;
     display: grid;
@@ -116,7 +119,7 @@ body{
                         "c6 c6 c6 c6"
     ;
 }
-#label2_one{
+.label2_one{
     grid-area: c1;
     padding-left: 30px;
 }
@@ -125,15 +128,15 @@ body{
     padding-left:10px ;
     border-left: red solid 5px;
 }
-#label2_two{
+.label2_two{
     grid-area: c2;
     padding-left: 30px;
 }
 .label2_two_start{
-    max-width: 100px;
+    max-width: 50%;
     height: auto;
 }
-#label2_three{
+.label2_three{
     grid-area: c3;
     padding-left: 30px;
 }
@@ -145,7 +148,7 @@ body{
 .label2_three_mobile{
     width: 200px;
 }
-#label2_four{
+.label2_four{
     grid-area: c4;
     padding: 50px 30px;
 }
@@ -153,14 +156,14 @@ body{
     width: 100px;
     height: auto;
 }
-#label2_five{
+.label2_five{
     grid-area: c5;
     padding: 30px 0 ;
 }
 .label2_five_start{
     font-size: 15px;
 }
-#label_end{
+.label_end{
     padding-left: 20px;
     grid-area: c6;
 }
@@ -172,22 +175,22 @@ body{
 /* end label2 */
 /* end label */
 /* main-product start */
-#main_product{
+.main_product{
     max-width: 100%;
     margin: 0;
 }
-#main_product_one{
+.main_product_one{
     background-color:black ;
     height: 40px
 }
-#main_product_one p{
+.main_product_one p{
     color: white;
     font-size: 19px;
     text-align: center;
     margin: 0;
     padding: 5px;
 }
-#main_product_two{
+.main_product_two{
     max-width: 100%;
     padding: 20%;
     padding-top: 50px;
@@ -196,7 +199,7 @@ body{
     box-sizing: border-box;
     background-color: white;
 }
-#main_product_two_sum{
+.main_product_two_sum{
     padding: 20px 10px;
     margin:0 10px;
     box-sizing: border-box;
@@ -207,16 +210,16 @@ body{
                         "h1 h2"
                         "h3 h2";
 }
-#main_product_two_start:nth-child(){
+.main_product_two_start:nth-child(){
     grid-area: h1;
 }
-#main_product_two_img:nth-child(2){
+.main_product_two_img:nth-child(2){
     grid-area: h2;
 }
-#main_product_two_end:last-child{
+.main_product_two_end:last-child{
     grid-area: h3;
 }
-#main_product_two_start{
+.main_product_two_start{
     max-width: 100%;
     height: auto;
     padding-top: 60px;
@@ -224,26 +227,26 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-#main_product_two_start h2{
+.main_product_two_start h2{
     margin: 0;
 }
-#main_product_two_start p{
+.main_product_two_start p{
     margin: 0%;
     font-size: 14px;
 }
-#main_product_two_img{
+.main_product_two_img{
     top: 20px;
     margin-top:20px ;
     padding: 20px;
     box-sizing:border-box;
     background-size: cover;
 }
-#main_product_two_img img{
+.main_product_two_img img{
     height: 300px;
     width: auto;
     object-fit: cover;
 }
-#main_product_two_end{
+.main_product_two_end{
     max-width: 100%;
     height: auto;
     margin: 0;
@@ -260,62 +263,62 @@ body{
 }
 /* end main-product */
 /* campaign start */
-#end_main{
+.end_main{
     background-color: black;
     height: 40px;
 }
-#campaign_one p{
+.campaign_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     margin: 0;
     padding: 5px;
 }
-#campaign_two{
+.campaign_two{
     margin: 0 20%;
     padding-top: 30px;
     box-sizing: border-box;
 }
-#campaign_two_start{
+.campaign_two_start{
     padding:0 18px;
     margin-bottom: 0;
     box-sizing: border-box;
 }
-#campaign_two_start p{
+.campaign_two_start p{
     font-size: 20px;
 }
-#campaign_two_end{
+.campaign_two_end{
     padding-top: 0;
     margin: 0 ;
     box-sizing: border-box;
 }
-#campaign_two_end ul{
+.campaign_two_end ul{
     list-style-type: none;
     padding: 20px;
     box-sizing: border-box;
 }
-#campaign_two_end ul li{
+.campaign_two_end ul li{
     padding: 10px 0;
     box-sizing: border-box;
 }
-#campaign_two_end ul li p{
+.campaign_two_end ul li p{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
 }
 /* end campaign */
 /* recruitment　start */
-#recruitment_one{
+.recruitment_one{
     background-color: black;
     height: 40px;
 }
-#recruitment_one p{
+.recruitment_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
-#recruitment_two{
+.recruitment_two{
     max-width: 100%;
     padding: 20%;
     padding-top: 0;
@@ -326,17 +329,17 @@ body{
 }
 /* end recruitment */
 /* note start */
-#note_one{
+.note_one{
     background-color: black;
     height: 40px;
 }
-#note_one p{
+.note_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
-#note_two{
+.note_two{
     max-width: 100%;
     padding: 20%;
     padding-top: 0;
@@ -345,18 +348,18 @@ body{
     box-sizing: border-box;
     background-color: white;
 }
-#note_two ul{
+.note_two ul{
     padding: 0;
 }
-#note_two ul li{
+.note_two ul li{
     list-style-type: none;
 }
-#button_me{
+.button_me{
     padding:0 20%;
     text-align: center;
     color: red;
 }
-#button_now{
+.button_now{
     margin: 0;
     box-sizing: border-box;
     min-width: 100%;
@@ -364,24 +367,27 @@ body{
     color: white;
     background-color: red;
     font-size: 30px;
+    border: none;
+    padding: 5px;
+
 }
-#notification_one{
+.notification_one{
     background-color: black;
     height: 40px;
 }
-#notification_one p{
+.notification_one p{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
-#notification_two{
+.notification_two{
     max-width: 100%;
     margin-top: 30px;
     text-align: center;
     background-color: white;
 }
-#notification_two p{
+.notification_two p{
     padding: 0;
     margin: 0;
 }
@@ -389,21 +395,21 @@ body{
     text-decoration: none;
     color: black;
 }
-#footer{
+.footer{
     background-color: #ecebe5;
     height: 200px;
     padding: 30px 20%;
     margin-top: 30px;
 }
-#footer_one{
+.footer_one{
     margin-top: 50px;
     box-sizing: border-box;
 }
-#footer_one img{
+.footer_one img{
     max-width: 300px;
 
 }
-#footer_two{
+.footer_two{
     position: absolute;
     right: 0 !important;
     padding-top: 12px;
@@ -415,7 +421,7 @@ body{
     box-sizing: border-box;
     text-decoration: none;
 }
-#footer_three{
+.footer_three{
     word-wrap: break-word;
     max-width: 350px;
     font-size: 12px;
