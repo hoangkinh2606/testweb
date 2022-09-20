@@ -45,7 +45,7 @@
         height: 85px;
     }
     .label_four_start{
-        width: 50%;
+        width: 40%;
         height: auto;
         padding-top: 30px ;
     }
@@ -132,7 +132,7 @@
         margin: 10px;
         padding-left: 0;
         box-sizing: border-box;
-        text-align: center;
+        text-align: left;
     }
     .main_product_two_start p{
         font-size: 16px;
@@ -173,7 +173,6 @@
         margin: 0;
     }
     .campaign_two_end{
-        font-weight: bold; 
         font-family: none;
     }
     .recruitment_two{

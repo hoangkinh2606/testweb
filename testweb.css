@@ -65,7 +65,7 @@ main{
 .label_one_start{
     font-size: 40px;
     padding-left:15px ;
-    border-left: red solid 5px;
+    border-left: #d52c2c solid 5px;
     
 }
 .label_two{
@@ -102,6 +102,7 @@ main{
     padding: 30px 0 ;
 }
 .label_five_start{
+    width: 100%;
     font-size: 40px;
 }
 /* end label1 \ */
@@ -126,7 +127,7 @@ main{
 .label2_one_start{
     font-size: 30px;
     padding-left:10px ;
-    border-left: red solid 5px;
+    border-left: #d52c2c solid 5px;
 }
 .label2_two{
     grid-area: c2;
@@ -153,7 +154,7 @@ main{
     padding: 50px 30px;
 }
 .label2_four_start{
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 .label2_five{
@@ -161,14 +162,17 @@ main{
     padding: 30px 0 ;
 }
 .label2_five_start{
-    font-size: 15px;
+    font-size: 40px;
+    white-space: nowrap;
+    align-items: flex-end;
 }
 .label_end{
     padding-left: 20px;
     grid-area: c6;
 }
 .label_end_start_end{
-    color: red;
+    font-weight: bold;
+    color: #d52c2c;
     text-align: center;
     padding-right: 20px;
 }
@@ -234,6 +238,9 @@ main{
     margin: 0%;
     font-size: 14px;
 }
+.main_product_bold{
+    font-weight: bold;
+}
 .main_product_two_img{
     top: 20px;
     margin-top:20px ;
@@ -255,24 +262,26 @@ main{
     box-sizing: border-box;
 }
 .main_product_two_end_sp{
-    color: red;
+    color: #d52c2c;
     font-size: 19px;
+    font-weight: 600;
 }
 .main_product_two_end_tp{
     font-size: 19px;
+    font-weight: 600;
 }
 /* end main-product */
 /* campaign start */
-.end_main{
-    background-color: black;
-    height: 40px;
+.campaign_one{
+    background: black;
 }
 .campaign_one p{
     color: white;
-    font-size: 20px;
     text-align: center;
-    margin: 0;
-    padding: 5px;
+    padding: 15px 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 .campaign_two{
     margin: 0 20%;
@@ -291,6 +300,7 @@ main{
     padding-top: 0;
     margin: 0 ;
     box-sizing: border-box;
+    font-weight: bold; 
 }
 .campaign_two_end ul{
     list-style-type: none;
@@ -310,13 +320,14 @@ main{
 /* recruitment　start */
 .recruitment_one{
     background-color: black;
-    height: 40px;
 }
 .recruitment_one p{
     color: white;
-    font-size: 20px;
     text-align: center;
-    padding: 5px;
+    padding: 15px 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 .recruitment_two{
     max-width: 100%;
@@ -326,18 +337,20 @@ main{
     margin: 0;
     box-sizing: border-box;
     background-color: white;
+    font-weight: 600;
 }
 /* end recruitment */
 /* note start */
 .note_one{
     background-color: black;
-    height: 40px;
 }
 .note_one p{
     color: white;
-    font-size: 20px;
     text-align: center;
-    padding: 5px;
+    padding: 15px 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 .note_two{
     max-width: 100%;
@@ -347,6 +360,7 @@ main{
     margin: 0;
     box-sizing: border-box;
     background-color: white;
+    font-weight: 600;
 }
 .note_two ul{
     padding: 0;
@@ -357,7 +371,7 @@ main{
 .button_me{
     padding:0 20%;
     text-align: center;
-    color: red;
+    color: #d52c2c;
 }
 .button_now{
     margin: 0;
@@ -365,7 +379,7 @@ main{
     min-width: 100%;
     height: auto;
     color: white;
-    background-color: red;
+    background-color: #d52c2c;
     font-size: 30px;
     border: none;
     padding: 5px;
@@ -373,13 +387,14 @@ main{
 }
 .notification_one{
     background-color: black;
-    height: 40px;
 }
 .notification_one p{
     color: white;
-    font-size: 20px;
     text-align: center;
-    padding: 5px;
+    padding: 15px 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 .notification_two{
     max-width: 100%;
