@@ -46,11 +46,14 @@
     }
     .label_four_start{
         width: 40%;
-        height: auto;
+        height: 45px;
         padding-top: 30px ;
+        padding-left: 35px;
     }
     .label_five_start{
+        padding-top: 10px;
         font-size: 20px;
+        line-height: 1.5;
     }
     .bottom_one{
         align-items: flex-end;
@@ -81,6 +84,9 @@
     }
     .space{
         padding-bottom: 50px;
+    }
+    .ten_start::before{
+        content: "・";
     }
     /* label start */
     .web_man{

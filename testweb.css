@@ -95,7 +95,7 @@ main{
 .label_four_start{
     max-width: 100%;
     height: auto;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 .label_five{
     grid-area: c5;
@@ -103,7 +103,9 @@ main{
 }
 .label_five_start{
     width: 100%;
-    font-size: 40px;
+    font-size: 28px;
+    line-height: 1;
+    padding-left: 30px;
 }
 /* end label1 \ */
 /* label2 start */
@@ -162,9 +164,10 @@ main{
     padding: 30px 0 ;
 }
 .label2_five_start{
-    font-size: 40px;
+    font-size: 35px;
     white-space: nowrap;
     align-items: flex-end;
+    padding-top: 15px;
 }
 .label_end{
     padding-left: 20px;
@@ -175,7 +178,9 @@ main{
     color: #d52c2c;
     text-align: center;
     padding-right: 20px;
+    padding-bottom: 20px;
 }
+
 /* end label2 */
 /* end label */
 /* main-product start */
@@ -278,7 +283,7 @@ main{
 .campaign_one p{
     color: white;
     text-align: center;
-    padding: 15px 0 10px;
+    padding: 10px 0;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -333,11 +338,15 @@ main{
     max-width: 100%;
     padding: 20%;
     padding-top: 0;
-    padding-bottom: 5%;
+    padding-bottom: 30px ;
     margin: 0;
     box-sizing: border-box;
     background-color: white;
     font-weight: 600;
+}
+.recruitment_two_start, .note_two_start,.notification_two_start{
+    margin: 0%;
+    padding: 0;
 }
 /* end recruitment */
 /* note start */
@@ -398,9 +407,10 @@ main{
 }
 .notification_two{
     max-width: 100%;
+    padding:0 34%;
     margin-top: 30px;
-    text-align: center;
     background-color: white;
+
 }
 .notification_two p{
     padding: 0;
