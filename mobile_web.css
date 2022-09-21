@@ -3,7 +3,7 @@
     .mv_mobile{
         display: none;
     }
-    .label_three_mobile{
+    .test2_2_mobile{
         display: none;
     }
     .label2_three_mobile{
@@ -19,10 +19,18 @@
 /* end logo */
 /* main product start */
 @media (max-width:768px){
+    body{
+        margin: 0;
+    }
+    .title{
+        padding:10px;
+    }
     .pc{
         display: none;
     }
-
+    .pc_break{
+        display: none;
+    }
     .label_flex{
         display: flex !important;
         width: 100%;
@@ -59,6 +67,18 @@
         align-items: flex-end;
         padding-bottom: 50px;
     }
+    .label_s1_three_end  p{
+        font-size: 20px;
+    }
+    .label_s1_two_start img{
+        padding-left: 0;
+    }
+    .label_s1_one{
+        font-size: 17px;
+    }
+    .label_s1_two_end img{
+        padding-left: 35px;
+    }
     
      /* header star */
      .logo{
@@ -73,7 +93,7 @@
     }
     .logo1{
         max-width: 100%;
-        padding: 15px 30px;
+        padding: 15px 20px;
         margin: 0;
         box-sizing: border-box;
     }
@@ -85,8 +105,15 @@
     .space{
         padding-bottom: 50px;
     }
-    .ten_start::before{
+    .campaign_two_end ul li .ten_start{
+        position: relative;
+        padding-left: 20px;
+    }
+    .campaign_two_end ul li .ten_start::before{
         content: "・";
+        position: absolute;
+        left: 0;
+
     }
     /* label start */
     .web_man{
@@ -97,15 +124,24 @@
         padding: 0;
         margin: 0;
     }
-    .label_three_pc{
+    /* .label_three_pc{
         display: none;
     }
     .label_three_mobile{
         width: 100px;
-    }
+    } */
     .label_one_start{
         font-size: 25px;
         padding-right: 10px;
+        
+    }
+    .label_s1{
+        max-width: 100%;
+        padding: 15px 20px;
+    }
+    .label_s1_three{
+        align-items: center;
+        padding-top: 120px;
     }
     /* end label  */
     /* label2 start */
@@ -122,6 +158,9 @@
     .label_end_start_end{
         text-align: left;
     }
+    .label_end_start_end{
+        padding-top: 20px;
+    }
     /* end label  */
     /* end header */
     .main_product_two{
@@ -135,10 +174,10 @@
         display: block;
     }
     .main_product_two_start{
-        margin: 10px;
-        padding-left: 0;
+        margin: 10px auto;
         box-sizing: border-box;
-        text-align: left;
+        width: 19em;
+        padding-top: 27px;
     }
     .main_product_two_start p{
         font-size: 16px;
@@ -151,7 +190,7 @@
     }
     .main_product_two_img img{
         margin-top: 0;
-        height: 150px;
+        height: 250px;
         width: auto;
         box-sizing: border-box;
     }
@@ -188,16 +227,23 @@
         box-sizing: border-box;
         font-weight: bold;
     }
+    .notification_two_start{
+        padding-bottom: 13px;
+    }
+    .notification_two_start_space{
+        padding-bottom: 10px;
+    }
     .note_two{
         max-width: 100%;
         margin: 0;
-        padding:0 20px;
+        padding:0 20px 30px;
         box-sizing: border-box;
         font-weight: bold;
     }
+ 
     .button_me{
         margin: 0;
-        padding: 0;
+        padding: 0 0 20px;
         box-sizing: border-box;
     }
     .button_now{
@@ -207,6 +253,15 @@
         word-wrap: break-word;
         line-height: 1.2;
         font-weight: bold;
+        padding: 10px 0;
+    }
+    .notification_two{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .notification_two_start{
+        max-width: 100%;
+        text-align: center;
     }
     .footer{
         margin: 0;
@@ -225,7 +280,8 @@
     }
     .footer_three {
         text-align: center;
-        padding:0 100px;
+        padding:0 20px;
+        font-size: 12px;
     }
 }
 /* end campaign */

@@ -27,12 +27,15 @@ main{
     background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
-    padding: 20px 20%;
+    padding: 20px 20% 0;
     box-sizing: border-box;
 }
-.auto img{
+.logo1 img{
     max-width: 100%;
     height: auto;
+    bottom: 0%;
+    padding: 10px 0;
+
 }
 /* end-main-logo */
 /* label start */
@@ -107,6 +110,9 @@ main{
     line-height: 1;
     padding-left: 30px;
 }
+.label_s1_two_b{
+    display: block;
+}
 /* end label1 \ */
 /* label2 start */
 .label2{
@@ -156,7 +162,7 @@ main{
     padding: 50px 30px;
 }
 .label2_four_start{
-    width: 200px;
+    width: 100%;
     height: auto;
 }
 .label2_five{
@@ -167,7 +173,6 @@ main{
     font-size: 35px;
     white-space: nowrap;
     align-items: flex-end;
-    padding-top: 15px;
 }
 .label_end{
     padding-left: 20px;
@@ -177,10 +182,15 @@ main{
     font-weight: bold;
     color: #d52c2c;
     text-align: center;
+    padding-top: 100px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0   ;
+    box-sizing: border-box;
 }
-
+.label_end_start_end::before{
+    content: '※';
+    padding-right: 2px;
+}
 /* end label2 */
 /* end label */
 /* main-product start */
@@ -202,7 +212,7 @@ main{
 .main_product_two{
     max-width: 100%;
     padding: 20%;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 5%;
     margin: 0;
     box-sizing: border-box;
@@ -242,6 +252,7 @@ main{
 .main_product_two_start p{
     margin: 0%;
     font-size: 14px;
+    font-weight:500;
 }
 .main_product_bold{
     font-weight: bold;
@@ -269,32 +280,24 @@ main{
 .main_product_two_end_sp{
     color: #d52c2c;
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .main_product_two_end_tp{
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 500;
 }
 /* end main-product */
 /* campaign start */
 .campaign_one{
     background: black;
 }
-.campaign_one p{
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
 .campaign_two{
-    margin: 0 20%;
+    margin: 0 23%;
     padding-top: 30px;
     box-sizing: border-box;
 }
 .campaign_two_start{
-    padding:0 18px;
+    padding:0 20px;
     margin-bottom: 0;
     box-sizing: border-box;
 }
@@ -308,6 +311,7 @@ main{
     font-weight: bold; 
 }
 .campaign_two_end ul{
+    font-size: 20px;
     list-style-type: none;
     padding: 20px;
     box-sizing: border-box;
@@ -320,65 +324,102 @@ main{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+}
+.campaign_two_end ul li .aaa{
+    padding-left:45px;
+}
+.campaign_two_end ul li .aaa:before{
+    position: absolute;
+    left:3px;
+}
+.a_before::before{
+    content: 'A賞:';
+}
+.b_before::before{
+    content: 'B賞:';   
 }
 /* end campaign */
 /* recruitment　start */
 .recruitment_one{
     background-color: black;
 }
-.recruitment_one p{
-    color: white;
-    text-align: center;
-    padding: 15px 0 10px;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
 .recruitment_two{
     max-width: 100%;
-    padding: 20%;
+    padding: 25%;
     padding-top: 0;
     padding-bottom: 30px ;
     margin: 0;
     box-sizing: border-box;
     background-color: white;
-    font-weight: 600;
+    font-weight: 500;
+}
+.recruitment_two p{
+    font-size: 20px;
+    padding-left: 15px;
 }
 .recruitment_two_start, .note_two_start,.notification_two_start{
     margin: 0%;
     padding: 0;
+    position:relative;
+    padding-left:10px;
 }
+.recruitment_two_start:before{
+    content:'';
+    position:absolute;
+    left:-9px;
+    top:3px;
+}
+.one:before{
+    content:'(1)';
+
+}
+.two:before{
+    content:'(2)';
+
+}
+.three:before{
+    content:'(3)';
+}
+.four::before{
+    content: '※';
+}
+
+
 /* end recruitment */
 /* note start */
 .note_one{
     background-color: black;
 }
-.note_one p{
-    color: white;
-    text-align: center;
-    padding: 15px 0 10px;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
 .note_two{
     max-width: 100%;
-    padding: 20%;
+    padding: 25%;
     padding-top: 0;
     padding-bottom: 5%;
     margin: 0;
     box-sizing: border-box;
     background-color: white;
-    font-weight: 600;
+    font-weight: 500;
+}
+.note_two p{
+    font-size: 20px;
 }
 .note_two ul{
-    padding: 0;
+    padding: 10;
 }
 .note_two ul li{
     list-style-type: none;
+    font-size: 20px;
+}
+.note_kome{
+    padding-left: 10px;
+}
+.line_zero{
+    margin: 0;
+    padding: 0%;
 }
 .button_me{
-    padding:0 20%;
+    padding:10px 20% 50px;
     text-align: center;
     color: #d52c2c;
 }
@@ -392,15 +433,15 @@ main{
     font-size: 30px;
     border: none;
     padding: 5px;
-
+    font-weight: bold;
 }
 .notification_one{
     background-color: black;
 }
-.notification_one p{
+.title{
     color: white;
     text-align: center;
-    padding: 15px 0 10px;
+    padding:20px 0 18px;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -413,7 +454,7 @@ main{
 
 }
 .notification_two p{
-    padding: 0;
+    padding: 3px 0;
     margin: 0;
 }
 .notification_two_renraku{
@@ -427,7 +468,7 @@ main{
     margin-top: 30px;
 }
 .footer_one{
-    margin-top: 50px;
+    margin-top: 18px;
     box-sizing: border-box;
 }
 .footer_one img{
@@ -452,3 +493,65 @@ main{
     font-size: 12px;
 }
 /* end note */
+.label_s1{
+    background-color: white;
+    padding: 30px 70px;
+}
+.btn_label{
+    border-bottom: black double 5px;
+    padding-top: 40px;
+}
+.label_s1_one{
+    padding-left: 20px;
+    border-left: #d52c2c solid 5px;
+    font-size: 24px;
+}
+.label_s1_two{
+    display: flex;
+}
+.label_s1_two_start{
+    flex:1;
+}
+.label_s1_two_start img{
+    max-width: 100%;
+    height: auto;
+}
+.label_s1_two_end{
+    flex: 2;
+}
+.label_s1_two_end img{
+    max-width: 40%;
+    padding-left: 175px;
+}
+.label_s1_three{
+    display: flex;
+    padding-top: 20px;
+    align-items: flex-end;
+    /* position:relative; */
+}
+.label_s1_three_start{
+    flex:1;
+}
+.label_s1_three_start img{
+    max-width: 100%;
+    height: auto;
+}
+.label_s1_three_end{
+    flex: 2;
+}
+.label_s1_three_end p{
+    max-width: 100%;
+    line-height: 1.5;
+    padding-left: 30px;
+    font-size: 28px;
+    margin: 0%;
+}
+.label_s1_two_start_btn img{
+    width: 35%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.btn_no{
+    display: none;
+}
+
